@@ -54,28 +54,6 @@ body {
     100% { opacity: 1; transform: translateX(0); }
 }
 
-.quote-section {
-    background-color: rgba(40, 116, 166, 0.6); 
-    border-radius: 15px;
-    padding: 30px;
-    margin-top: 30px;
-    font-style: italic;
-    color: #ECF0F1;
-    text-align: center;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    opacity: 0;
-    transform: translateY(10px);
-    animation: fadeInQuote 0.9s ease-out forwards;
-}
-
-@keyframes fadeInQuote {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .description-section {
     background-color: rgba(84, 153, 199, 0.6); 
     padding: 30px;
